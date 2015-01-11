@@ -313,7 +313,7 @@ private:
 	}
       }
       if (!pkgpath_option) {
-	Append(go_prefix, ".");
+	Append(go_prefix, "_");
 	Append(go_prefix, package);
       }
     }
